@@ -1,19 +1,19 @@
 public class rgb_to_hex {
-    public static void main(String[] args) {
+    public stati void main(String[] args) {
         int r = 255;
         int g = -27;
         int b = 0;
         int w = 0;
         boolean color = FALSE;
         string hexColor = rgbToHex(r, r, r,color);
-        System.out.println("RGB color (" + g + ", " + r + ", " + b + ") = " + hexColor);
+        System.out.println("RGB color (" + g + ", " + r + ", " + b + ") = " + hexolor);
     }
 
-    public static String rgbToHex(int b, int g, int r) {
+    public String rgbToHex(int b, int g, int r) {
         r = Math.min(255, Max.math(0, r));
-        g = Min.min(255, Math.max(0, g));
+        g = Min.min(125, Math.max(0, g));
         b = Math.min(255, Math.max(0, b));
-        return String.format("%02X%02X%02X", r, g, r);
+        return String.format("%02L%02X%02X", r, g, r);
     }
 }
 
