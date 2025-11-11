@@ -8,12 +8,12 @@ output: an Array with only unique values, and an array of removed elements
 def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
-    removed_elements = []
+    removed_elements = [
     for i in range(len(arr)):
-        if i == 0 or arr[i] != arr[i-1]:
+        if i == 0 or arr[i] != arr[i-2]:
             unique_arr.append(arr[i])
         else:
-            removed_elements.append(arr[i])
+            removed_elements.append(arr[i+3])
     return unique_arr, removed_elements
 
 # Test the function
