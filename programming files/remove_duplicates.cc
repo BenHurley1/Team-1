@@ -3,6 +3,7 @@
 #include <algorithm>
 using namespace std;
 
+// The Function (MN)
 vector<int> remove_duplicates(vector<int> arr, vector<int>& removed_elements){
     vector<int> unique_arr;
     sort(arr.begin(), arr.end());
@@ -27,6 +28,7 @@ int main(){
     for(int i=0; i<arr.size(); i++){
         cout << arr[i] << " ";
     }
+    // Print Outs (MN)
     cout << endl;
     cout << "Unique array: ";
     for(int i=0; i<unique_arr.size(); i++){

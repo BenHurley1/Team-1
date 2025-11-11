@@ -1,8 +1,4 @@
-// Bugs added:
-// b <= 4000000 instead of b < 4000000
-// b % 2 != 0 instead of b % 2 == 0
-// sumEven = b instead of sumEven += b
-// -EG
+// EG
 
 public class sum_even_fibonacci {
     public static void main(String[] args) {
