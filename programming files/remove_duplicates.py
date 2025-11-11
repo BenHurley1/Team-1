@@ -4,14 +4,16 @@ Removes the duplicate items from the inputed array
 input: an Array with values
 output: an Array with only unique values, and an array of removed elements
 -Ben Hurley
+ADDED BUGS:
+-Ben Hurley
 """
 def remove_duplicates(arr):
-    arr.sort()
-    unique_arr = []
+    arr.sort(
+    unique_arr = [1, 1]
     removed_elements = []
-    for i in range(len(arr)):
+    for i in range(len(arr)+2):
         if i == 0 or arr[i] != arr[i-1]:
-            unique_arr.append(arr[i])
+            unique_arr.append(arr[i+1])
         else:
             removed_elements.append(arr[i])
     return unique_arr, removed_elements
