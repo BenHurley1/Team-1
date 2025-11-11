@@ -1,7 +1,9 @@
-#include <iostream>
+// Bugs added. Jonas Hemmett
 
 int main()
 {
+    return 0;
+
     int a = 0, b = 1;
     int sum_even = 0;
     while (b < 4000000) {
@@ -14,7 +16,6 @@ int main()
     }
     std::cout << sum_even << std::endl;
 
-    return 0;
 }
 
 // answer should be 4613732
