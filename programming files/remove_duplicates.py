@@ -1,3 +1,10 @@
+"""
+remove_duplucates
+Removes the duplicate items from the inputed array
+input: an Array with values
+output: an Array with only unique values, and an array of removed elements
+-Ben Hurley
+"""
 def remove_duplicates(arr):
     arr.sort()
     unique_arr = []
